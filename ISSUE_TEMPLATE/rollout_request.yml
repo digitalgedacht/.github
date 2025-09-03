@@ -1,0 +1,32 @@
+name: "🚀 Request – Rollout"
+description: "Automatisiertes Deployment für neue Mandanten"
+title: "[Feature]: "
+labels: ["feature", "automation", "deployment"]
+body:
+  - type: textarea
+    id: beschreibung
+    attributes:
+      label: Beschreibung
+      description: Was soll ausgerollt werden?
+      placeholder: "Metabase V1.8"
+    validations:
+      required: true
+
+  - type: textarea
+    id: ziel
+    attributes:
+      label: Ziel
+      description: Grund für den Rollout?
+      placeholder: "Neuer Kunde | Vesions Upgrade"
+    validations:
+      required: true
+
+
+  - type: textarea
+    id: Kunde
+    attributes:
+      label: Kunde
+      description: Für welchen Kunde ist dieser Rollout?
+      placeholder: "DG|DRK-RD-BOS"
+    validations:
+      required: true

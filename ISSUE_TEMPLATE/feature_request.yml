@@ -1,0 +1,47 @@
+name: "✨ Feature Request"
+description: "Feature Template"
+title: "[Feature]: "
+labels: ["feature"]
+body:
+  - type: textarea
+    id: beschreibung
+    attributes:
+      label: Beschreibung
+      description: Was soll umgesetzt werden?
+      placeholder: "Implementierung eines Delta-Loads, sodass nur neue oder geänderte Dateien nach S3 geladen werden."
+    validations:
+      required: true
+
+  - type: textarea
+    id: system
+    attributes:
+      label: system
+      description: Welches Sytem ist von dem Feature betroffen, bzw in welchem System soll es implementiert werden?
+      placeholder: "Das Feature soll im KFC implementiert werden."
+    validations:
+      required: true
+
+  - type: textarea
+    id: ziel
+    attributes:
+      label: Ziel
+      description: Welchen Nutzen bringt dieses Feature?
+      placeholder: "Reduzierung von Ladezeiten und Datenvolumen."
+    validations:
+      required: true
+
+  - type: textarea
+    id: umsetzung
+    attributes:
+      label: Vorschlag zur Umsetzung
+      description: Wie könnte das umgesetzt werden?
+      placeholder: "Delta Load nach Datum oder Hash-Vergleich implementieren."
+    validations:
+      required: false
+
+  - type: textarea
+    id: kriterien
+    attributes:
+      label: Akzeptanzkriterien
+      description: Wann gilt das Feature als erfolgreich umgesetzt?
+      placeholder: "✓ Nur neue/aktualisierte Dateien werden geladen\n✓ Laufzeit deutlich reduziert"

@@ -1,0 +1,38 @@
+name: "🐛 Bug Report"
+description: "Melde einen Fehler oder ein unerwartetes Verhalten"
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: beschreibung
+    attributes:
+      label: Beschreibung
+      description: Beschreibe den Fehler so genau wie möglich.
+      placeholder: "Der ETL-Prozess dauert aktuell 396 Sekunden..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: schritte
+    attributes:
+      label: Schritte zur Reproduktion
+      description: Wie kann man den Fehler nachstellen?
+      placeholder: "1. ETL starten\n2. Daten über KFC laden\n3. Zeit messen"
+    validations:
+      required: true
+
+  - type: textarea
+    id: erwartet
+    attributes:
+      label: Erwartetes Verhalten
+      description: Was sollte eigentlich passieren?
+      placeholder: "ETL sollte unter 120 Sekunden laufen."
+    validations:
+      required: true
+
+  - type: textarea
+    id: kriterien
+    attributes:
+      label: Akzeptanzkriterien
+      description: Woran erkennst du, dass der Bug behoben ist?
+      placeholder: "✓ Laufzeit < 120 Sekunden\n✓ Keine Datenverluste"
