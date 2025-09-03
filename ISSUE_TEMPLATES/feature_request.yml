@@ -1,4 +1,4 @@
-name: "✨ Feature Request"
+name: "Feature Request"
 description: "Feature Template"
 title: "[Feature]: "
 labels: ["feature"]
@@ -44,4 +44,4 @@ body:
     attributes:
       label: Akzeptanzkriterien
       description: Wann gilt das Feature als erfolgreich umgesetzt?
-      placeholder: "✓ Nur neue/aktualisierte Dateien werden geladen\n✓ Laufzeit deutlich reduziert"
+      placeholder: "Nur neue/aktualisierte Dateien werden geladen\nLaufzeit deutlich reduziert"

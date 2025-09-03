@@ -1,4 +1,4 @@
-name: "🐛 Bug Report"
+name: "Bug Report"
 description: "Melde einen Fehler oder ein unerwartetes Verhalten"
 title: "[Bug]: "
 labels: ["bug"]
@@ -35,4 +35,4 @@ body:
     attributes:
       label: Akzeptanzkriterien
       description: Woran erkennst du, dass der Bug behoben ist?
-      placeholder: "✓ Laufzeit < 120 Sekunden\n✓ Keine Datenverluste"
+      placeholder: "Laufzeit < 120 Sekunden\nKeine Datenverluste"

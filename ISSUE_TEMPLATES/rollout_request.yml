@@ -1,4 +1,4 @@
-name: "🚀 Request – Rollout"
+name: "Request – Rollout"
 description: "Automatisiertes Deployment für neue Mandanten"
 title: "[Feature]: "
 labels: ["feature", "automation", "deployment"]
@@ -23,10 +23,10 @@ body:
 
 
   - type: textarea
-    id: Kunde
+    id: kunde
     attributes:
       label: Kunde
       description: Für welchen Kunde ist dieser Rollout?
-      placeholder: "DG|DRK-RD-BOS"
+      placeholder: "DG | DRK-RD-BOS"
     validations:
       required: true
