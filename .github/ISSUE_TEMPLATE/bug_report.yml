@@ -37,13 +37,3 @@ body:
       description: Woran erkennst du, dass der Bug behoben ist?
       placeholder: "Laufzeit < 120 Sekunden\nKeine Datenverluste"
       
-  - type: dropdown
-    id: issue-type
-    attributes:
-      label: Issue Type
-      description: Wähle den Typ des Issues aus
-      options:
-        - Bug
-      default: 0
-    validations:
-      required: true
